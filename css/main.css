@@ -15,8 +15,8 @@ a {
 header {
     width: 100%;
     height: 140px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: grid; 
+    grid-template-rows: 1fr 1fr; /* division del header en dos filas */
 }
 header .header-icons-container {
     width: 100%;
@@ -29,8 +29,11 @@ header .header-icons-container .icons {
     height: auto;
     display: flex;
     justify-items: flex-end;
-    align-items: center;
+    align-items: center; /* Alineacion vertical de las redes */
     justify-content: space-between;
-    justify-self: end;
+    justify-self: end; /* Botones de redes a la derecha */
     margin-right: 50px;
+}
+header .icons span {
+    color: white;
 }
