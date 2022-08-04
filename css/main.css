@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 body {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -83,4 +84,15 @@ nav .profile-link a {
     letter-spacing: 10px; /* Espaciado entre letras */
     color: white;
     text-align: center;
+}
+.home-main-button {
+    background-color: #47cfac;
+    width: 110px;
+    height: 50px;
+    display: grid;
+    align-items: center;
+}
+.home-main-button a {
+    font-weight:700;
+    font-size: 18px;
 }
