@@ -164,3 +164,20 @@ footer p {
     color: white;
     font-size: 30px;
 }
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: solid 1px #e6e9ed;
+    padding-bottom: 20px;
+}
+.blogpost-main-container h1 {
+    font-size: 35px;
+}
+
