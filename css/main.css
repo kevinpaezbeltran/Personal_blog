@@ -57,20 +57,16 @@ nav .profile-link {
 }
 nav .profile-link a {
     color: black;
-    border-bottom: solid black;
-}
-main img {
-    height: 100%;
-    width: 100%;
-}
-#main-button {
-    color: white;
-    font-size: 50px;
+    border-bottom: 1px solid black;
 }
 .home-main {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .home-main section {
     display: grid;
@@ -81,8 +77,8 @@ main img {
 }
 .home-main-text {
     font-size: 30px;
-    font-weight: 700px;
-    letter-spacing: 10px;
+    font-weight: 700px; 
+    letter-spacing: 10px; /* Espaciado entre letras */
     color: black;
     text-align: center;
 }
