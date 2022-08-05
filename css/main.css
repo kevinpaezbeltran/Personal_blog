@@ -102,7 +102,8 @@ nav .profile-link a {
     font-weight:700;
     font-size: 18px;
 }
-/* PANTALLA BLOGS */
+
+/* PANTALLA BLOGS.HTML */
 
 .blogs-main {
     display: grid;
@@ -164,6 +165,9 @@ footer p {
     color: white;
     font-size: 30px;
 }
+
+/* PANTALLA BLOG.HTML */
+
 .blogpost-img-container {
     padding: 0 50px 40px;
 }
@@ -180,4 +184,28 @@ footer p {
 .blogpost-main-container h1 {
     font-size: 35px;
 }
+.contact-main-container {
+    background-color: #e6e9ed;
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 75%;
+    margin-top: 8%;
+    margin:auto;
+}
+.contact-main-container b {
+    border-bottom: solid 1px black;
+    padding-bottom: 5px;
+}
+.contact-main-container img {
+    width: 100px;
+}
+
 
