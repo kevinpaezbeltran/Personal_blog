@@ -230,3 +230,10 @@ footer p {
     padding-bottom: 35px;
     text-align: center;
 }
+.projects-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.projects-container {
+    padding: 0 5px;
+}
