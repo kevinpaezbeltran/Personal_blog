@@ -121,7 +121,7 @@ nav .profile-link a {
     grid-column: 1;
 }
 .blogs-news-img-container img {
-    width: 75%;
+    width: 85%;
 }
 .blogs-news-info-container {
     grid-column: 2; /* Indica la posicion que tomará */
